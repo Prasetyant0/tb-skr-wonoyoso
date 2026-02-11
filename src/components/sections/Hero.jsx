@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { HERO_CONTENT } from '../../constants';
 import { Reveal } from '../ui/Reveal';
+import heroImage from '../../assets/heroimg.webp';
 
 const Hero = () => {
   return (
@@ -10,16 +11,12 @@ const Hero = () => {
 
       {/* --- BACKGROUND IMAGE & GRADIENT LAYER --- */}
       <div className="absolute inset-0 z-0">
-        {/* Gambar Background */}
-        {/* object-right: Memaksa gambar pekerja geser ke kanan biar gak ketabrak teks */}
         <img
-          src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=60&w=1200&auto=format&fit=crop"
+          src={heroImage}
           alt="Konstruksi"
           className="w-full h-full object-cover object-[75%]"
         />
 
-        {/* GRADIENT FIX (Sesuai Figma): */}
-        {/* Solid dari kiri (0%), tetap Solid sampai 50% layar, baru transparan di ujung kanan */}
         <div className="absolute inset-0 bg-gradient-to-r from-metal-500 from-0% via-metal-500 via-40% to-transparent"></div>
 
         {/* Mobile Gradient (Biar di HP teksnya tetap kebaca jelas) */}

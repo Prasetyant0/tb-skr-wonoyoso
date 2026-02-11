@@ -24,7 +24,7 @@ export const PRODUCTS = [
     id: 1,
     title: "Semen & Pasir",
     desc: "Material dasar kualitas tinggi",
-    image: semenImg // Pakai variabel import tadi
+    image: semenImg
   },
   {
     id: 2,
@@ -69,17 +69,17 @@ export const ABOUT_CONTENT = {
 export const FEATURES = [
   {
     title: "Harga Kompetitif",
-    desc: "Harga terbaik dengan kualitas terjamin untuk semua produk kami.",
+    desc: "Penawaran harga terbaik dengan kualitas terjamin untuk setiap kebutuhan bangunan Anda.",
     icon: "DollarSign"
   },
   {
     title: "Pengiriman Cepat",
-    desc: "Layanan pengiriman cepat dan aman ke seluruh area Wonoyoso.",
+    desc: "Layanan pengiriman sigap dan aman sampai ke lokasi proyek atau rumah pelanggan.",
     icon: "Zap"
   },
   {
-    title: "Produk Asli",
-    desc: "Semua produk dijamin 100% original dari distributor resmi.",
+    title: "Kualitas Terjamin",
+    desc: "Kami selalu mengutamakan kualitas produk yang baik.",
     icon: "ShieldCheck"
   }
 ];
@@ -87,22 +87,22 @@ export const FEATURES = [
 export const FAQ_CONTENT = [
   {
     question: "Apakah ada layanan pengiriman?",
-    answer: "Ya, kami menyediakan layanan pengiriman cepat dan aman ke seluruh area Wonoyoso dan sekitarnya (Radius 20KM). Biaya pengiriman gratis untuk pembelian di atas nominal tertentu."
+    answer: "Ya, kami menyediakan layanan pengiriman cepat dan aman sampai ke lokasi Anda (Radius 20KM). Gratis ongkir untuk pembelian dengan nominal tertentu."
   },
   {
     question: "Bagaimana cara melakukan pemesanan?",
-    answer: "Anda bisa memesan langsung melalui WhatsApp kami, telepon, atau datang langsung ke toko. Tim kami siap membantu menghitung kebutuhan material Anda."
+    answer: "Pemesanan bisa dilakukan via WhatsApp, telepon, atau datang langsung ke toko. Tim kami siap membantu menghitung kebutuhan material Anda."
   },
   {
     question: "Metode pembayaran apa saja yang tersedia?",
-    answer: "Kami menerima pembayaran Tunai (Cash), Transfer Bank (BCA, BRI, Mandiri), dan pembayaran Digital (QRIS)."
+    answer: "Kami menerima pembayaran secara Tunai (Cash) maupun Transfer Bank."
   },
   {
     question: "Apakah produk bergaransi?",
-    answer: "Tentu, semua produk elektronik (seperti pompa air, alat listrik) memiliki garansi resmi pabrik. Untuk material alam, kami menjamin kualitas sesuai standar."
+    answer: "Tentu, produk elektronik (seperti pompa air & alat listrik) memiliki garansi resmi pabrik. Untuk material alam, kami menjamin kualitas sesuai standar."
   },
   {
     question: "Apakah bisa konsultasi RAB (Rencana Anggaran Biaya)?",
-    answer: "Sangat bisa! Silakan bawa denah atau ukuran bangunan Anda, tim kami akan membantu estimasi kebutuhan material secara GRATIS."
+    answer: "Sangat bisa! Silakan bawa denah atau ukuran bangunan Anda, tim kami akan membantu estimasikan kebutuhan material secara GRATIS."
   }
 ];
